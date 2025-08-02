@@ -22,7 +22,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 a:hover {
@@ -32,10 +32,13 @@ a:hover {
 }
 .header {
   background-color: #1F2937;
-  color: white;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 17rem;
+}
+.nav-header{
+    font-size: 24px;
+    color: #F9FAF8;
 }
