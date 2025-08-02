@@ -9,7 +9,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  height: 100vh;
 }
 
 ul {
@@ -23,22 +22,76 @@ li {
 a {
   text-decoration: none;
   color: whitesmoke;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
+  transition: color 0.4s ease, border-bottom 0.2s ease;
 }
 a:hover {
   color: #facc15;
   border-bottom: 2px solid #facc15;
   cursor: pointer;
 }
+span {
+    color: #3882F6;
+}
+img {
+    width: 100%;
+    border-radius: 2px;
+}
+
 .header {
   background-color: #1F2937;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 0.75rem 17rem;
+  padding: 0.75rem 15rem;
 }
 .nav-header{
     font-size: 24px;
     color: #F9FAF8;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7rem 15rem;
+    background-color: #1F2937;
+    gap: 2rem;
+    min-height: calc(100vh - 52.36px);
+}
+.hero-main__text{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.hero-sec__text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 40%;
+    gap: 2rem;
+}
+.cta-button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  color: #F9FAF8;
+  transition: background-color 0.4s ease-in-out, color 0.2s ease-in-out;
+  width: 8rem;
+  height: 3rem;
+  font-size: 15px;
+}
+.cta-button:hover {
+  background-color: #facc15;
+  color: #1F2937;
+  cursor: pointer;
+}
+.hero-right{
+    display: flex;
+    width: 60%;
 }
