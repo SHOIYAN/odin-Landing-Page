@@ -37,6 +37,8 @@ img {
     border-radius: 2px;
 }
 
+/* -----header-section----- */
+
 .header {
   background-color: #1F2937;
   padding: 1rem 0;
@@ -50,6 +52,8 @@ img {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+/* ------- hero section ------ */
 .hero {
     display: flex;
     align-items: center;
@@ -96,3 +100,6 @@ img {
     display: flex;
     width: 60%;
 }
+
+/* feature section */
+
