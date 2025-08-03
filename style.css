@@ -134,3 +134,25 @@ img {
   margin: 0 auto;
   padding: 0.75rem 1rem;
 }
+
+/* testimonials section */
+
+.testimonial {
+  background-color: #E5E7EB;
+  padding: 6rem 23.5rem;
+}
+.testimonial-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.testimonial-paragraph {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+.testimonial-author {
+  font-size: 20px;
+  color: #1F2937;
+  text-align: right;
+}
