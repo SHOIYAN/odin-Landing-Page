@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -83,7 +82,7 @@ img {
 .cta-button {
   background-color: #3882F6;
   border-radius: 8px;
-  border: none;
+  border: 2px solid #F9FAF8;
   padding: 8px 16px;
   color: #F9FAF8;
   transition: background-color 0.4s ease-in-out, color 0.2s ease-in-out;
@@ -173,8 +172,4 @@ img {
 .cta-header {
   margin-bottom: 1rem;
   color: #F9FAF8;
-}
-.cta-button {
-  padding: 8px 16px;
-  border: 2px solid #F9FAF8;
 }
