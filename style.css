@@ -156,3 +156,25 @@ img {
   color: #1F2937;
   text-align: right;
 }
+
+/* cta section */
+.cta {
+  padding: 7rem 15rem;
+}
+.cta-container {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 2rem 4rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.cta-header {
+  margin-bottom: 1rem;
+  color: #F9FAF8;
+}
+.cta-button {
+  padding: 8px 16px;
+  border: 2px solid #F9FAF8;
+}
